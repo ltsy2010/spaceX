@@ -2,7 +2,9 @@
 @import "./styles/App.css";
 @import "./styles/Header.css";
 @import "./styles/Footer.css";
-
+@import "./styles/Main.css";
+@import "./styles/SatSetting.css";
+@import "./styles/SatelliteList.css";
 /*
 ~antd: antd is under node_modules
  */
