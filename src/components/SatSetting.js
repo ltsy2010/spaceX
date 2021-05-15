@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Form, Button, InputNumber } from "antd";
 
+//uncontrolled: onsumbit, use form, no need to use ref.
+//use getfieldDecorator to get data.
 class SatSettingForm extends Component {
     render() {
         const { getFieldDecorator } = this.props.form;
@@ -134,7 +136,7 @@ class SatSettingForm extends Component {
         });
     };
 }
-//get this.props.form
+//get this.props.form of satsetting
 const SatSetting = Form.create({ name: "satellite-setting" })(SatSettingForm);
 
 export default SatSetting;
