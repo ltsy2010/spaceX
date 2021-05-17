@@ -74,8 +74,9 @@ class SatelliteList extends Component {
                 <Button className="sat-list-btn"
                         size="large"
                         disabled={ selected.length === 0}
-                        onClick={this.onShowSatMap}
-                >Track on the map</Button>
+                        onClick={this.onShowSatMap} >
+                    Track on the map
+                </Button>
                 <hr/>
 
                 {
